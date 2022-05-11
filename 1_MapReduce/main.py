@@ -25,7 +25,7 @@ def main(paths: list[str]):
         reduce_res.items(),
         key=lambda x: x[1],
         reverse=True
-    )[:20]:
+    )[:top_count]:
         print(f'{k}: {v}')
 
 
